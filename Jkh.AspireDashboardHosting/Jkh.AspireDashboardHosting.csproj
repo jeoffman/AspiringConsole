@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\jeoff\.nuget\packages\aspire.dashboard\8.0.0-preview.2.23619.3\contentFiles\any\net8.0\appsettings.Development.json" />
+    <Content Remove="C:\Users\jeoff\.nuget\packages\aspire.dashboard\8.0.0-preview.2.23619.3\contentFiles\any\net8.0\appsettings.json" />
+    <Content Remove="C:\Users\jeoff\.nuget\packages\aspire.dashboard\8.0.0-preview.2.23619.3\contentFiles\any\net8.0\Properties\launchSettings.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Dashboard" Version="8.0.0-preview.2.23619.3" />
+    <PackageReference Include="OpenTelemetry.Exporter.OpenTelemetryProtocol" Version="1.9.0" />
+    <PackageReference Include="OpenTelemetry.Extensions.Hosting" Version="1.9.0" />
+    <PackageReference Include="System.Linq.Async" Version="6.0.1" />
+  </ItemGroup>
+
+</Project>
