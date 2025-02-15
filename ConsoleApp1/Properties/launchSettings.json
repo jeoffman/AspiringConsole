@@ -3,16 +3,16 @@
     "AspireDashboardConsole": {
       "commandName": "Project",
       "launchBrowser": true,
+      "launchUrl": "http://localhost:9999/StructuredLogs",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development",
         "ASPNETCORE_URLS": "http://localhost:5555",
-
 
         "xxxxDOTNET_DASHBOARD_OTLP_HTTP_ENDPOINT_URL-NotApparentlyUsedAtAllForSomeReason": "http://localhost:4317",
         "xxxxDOTNET_DASHBOARD_OTLP_ENDPOINT_URL": "http://localhost:4317",
         "xxxxDOTNET_DASHBOARD_UNSECURED_ALLOW_ANONYMOUS": "true"
 
-      },
+      }
     }
   }
 }
